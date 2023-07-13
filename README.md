@@ -4,5 +4,5 @@ This repository serves as a travel journal, documenting my adventures and experi
 
 # To Start With
 
-run, npm install --save to download the necessary dependencies. 
-then run , npm start.
+run, "npm install --save" to download the necessary dependencies. <br />
+Then run , "npm start".
