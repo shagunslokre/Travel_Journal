@@ -10,7 +10,7 @@ const Entry = (props) => {
                     <p className="entry__location">
                         <i className="fas fa-map-marker-alt"></i> {props.item.location}
                     </p>
-                    <a href={props.item.googleMaps} className="entry__google-maps" target="_blank"> View on Google Maps </a>
+                    <a href={props.item.googleMaps} className="entry__google-maps" target="_blank" rel="noreferrer"> View on Google Maps </a>
                 </div>
                 <h2 className="entry__title">{props.item.title}</h2>
                 <p className="entry__desc"> {props.item.description} </p>
